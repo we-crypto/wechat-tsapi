@@ -1,12 +1,17 @@
 {
-  "name": "@wecrpto/wechat-tsapi",
+  "name": "@lotolab/wechat-jsapi",
   "version": "1.6.0",
   "description": "Released simultaneously with WeChat official js source code",
   "main": "index.js",
+  "types": "./index.d.ts",
   "author": "lanbery",
   "license": "MIT",
-  "repository":{
+  "repository": {
     "type": "git",
-    "url": "https://github.com/we-crypto/wechat-tsapi.git"
+    "url": "git+https://github.com/we-crypto/wechat-tsapi.git"
+  },
+  "publishConfig":{
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
